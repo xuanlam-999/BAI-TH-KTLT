@@ -1,0 +1,5 @@
+input_file = open('D:/Kì 3 (năm 2)/Thực hành KTLT/hfhd.py',encoding='utf-8')
+doc_file = input_file.read()
+input_file.close()
+print('D:/Kì 3 (năm 2)/XSTK/GK Lí Thuyết.docx')
+print(doc_file)
