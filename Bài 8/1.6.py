@@ -1,6 +1,6 @@
 from tkinter import *
-
-def NewFile():
+#hàm
+def NewFile(): 
     print("New File! (Tạo tệp mới!)")
 
 def OpenFile():
@@ -50,3 +50,4 @@ menu.add_cascade(label="Help", menu=helpmenu)
 helpmenu.add_command(label="About...", command=About)
 
 window.mainloop()
+
